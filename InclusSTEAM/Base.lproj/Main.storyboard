@@ -16,17 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="AqK-U9-QJs">
-                                <rect key="frame" x="39" y="-19" width="335" height="261"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Screen Shot 2022-06-14 at 2.25.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="gnT-vk-xoq">
-                                <rect key="frame" x="39" y="180" width="337" height="197"/>
+                                <rect key="frame" x="39" y="176" width="337" height="197"/>
                                 <color key="backgroundColor" red="0.21478763219999999" green="0.3107957542" blue="0.24607291819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3kB-cD-2xw">
-                                <rect key="frame" x="130" y="722" width="155" height="61"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3kB-cD-2xw">
+                                <rect key="frame" x="129" y="713" width="155" height="61"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted">
                                     <attributedString key="attributedTitle">
@@ -39,8 +35,8 @@
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3N-64-Wg5">
-                                <rect key="frame" x="130" y="805" width="155" height="57"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3N-64-Wg5">
+                                <rect key="frame" x="129" y="796" width="155" height="57"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted">
                                     <attributedString key="attributedTitle">
@@ -52,14 +48,18 @@
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLu-pK-emx">
-                                <rect key="frame" x="10" y="400" width="395" height="288"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="AqK-U9-QJs">
+                                <rect key="frame" x="19" y="-9" width="375" height="234"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLu-pK-emx">
+                                <rect key="frame" x="15" y="417" width="384" height="288"/>
                                 <color key="backgroundColor" systemColor="separatorColor"/>
-                                <string key="text">The goal IncluSTEM is the gather young non-binary and female identifying people around the world into the STEM/STEAM community. Access to STEM equipment and STEM in general, is not fesable for a lot of people. With IncluSTEM, we are providing resources to help slove this on-going issue.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <string key="text">The goal of IncluSTEM is the gather young non-binary and female identifying people around the world into the STEM/STEAM community. Access to STEM equipment and STEM in general, is not fesable for a lot of people. With IncluSTEM, we are providing resources to help slove this on-going issue.</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" systemColor="systemGray2Color"/>
-                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -81,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-38" y="-75"/>
+            <point key="canvasLocation" x="-39.130434782608695" y="-75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kX5-Yg-K96">
