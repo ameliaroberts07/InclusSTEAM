@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E939C0FB285A624B0021AB02 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939C0FA285A624B0021AB02 /* ViewController3.swift */; };
+		E939C0FD285A668C0021AB02 /* NSAttributedStringExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E939C0FC285A668B0021AB02 /* NSAttributedStringExtenstion.swift */; };
+		E939C0FF285A6FE00021AB02 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E939C0FE285A6FE00021AB02 /* Media.xcassets */; };
 		E950CF56285A27BA00C4BD70 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E950CF55285A27BA00C4BD70 /* ViewController2.swift */; };
 		E9CD73652859045A0051C9C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD73642859045A0051C9C5 /* AppDelegate.swift */; };
 		E9CD73672859045A0051C9C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD73662859045A0051C9C5 /* SceneDelegate.swift */; };
 		E9CD73692859045A0051C9C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD73682859045A0051C9C5 /* ViewController.swift */; };
 		E9CD736C2859045A0051C9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CD736A2859045A0051C9C5 /* Main.storyboard */; };
-		E9CD736E2859046D0051C9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CD736D2859046D0051C9C5 /* Assets.xcassets */; };
 		E9CD73712859046D0051C9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CD736F2859046D0051C9C5 /* LaunchScreen.storyboard */; };
 		E9CD737A28590F800051C9C5 /* Retro Gaming copy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9CD737928590F800051C9C5 /* Retro Gaming copy.ttf */; };
-		E9FF5EF6285A5F90004EF8EB /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FF5EF5285A5F90004EF8EB /* ViewControllerThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E939C0FA285A624B0021AB02 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		E939C0FC285A668B0021AB02 /* NSAttributedStringExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtenstion.swift; sourceTree = "<group>"; };
+		E939C0FE285A6FE00021AB02 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		E950CF55285A27BA00C4BD70 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		E9CD73612859045A0051C9C5 /* InclusSTEAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InclusSTEAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CD73642859045A0051C9C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9CD73662859045A0051C9C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E9CD73682859045A0051C9C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9CD736B2859045A0051C9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E9CD736D2859046D0051C9C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9CD73702859046D0051C9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9CD73722859046D0051C9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9CD737928590F800051C9C5 /* Retro Gaming copy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Retro Gaming copy.ttf"; sourceTree = "<group>"; };
-		E9FF5EF5285A5F90004EF8EB /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,12 +75,13 @@
 				E9CD73642859045A0051C9C5 /* AppDelegate.swift */,
 				E9CD73662859045A0051C9C5 /* SceneDelegate.swift */,
 				E9CD73682859045A0051C9C5 /* ViewController.swift */,
-				E9FF5EF5285A5F90004EF8EB /* ViewControllerThree.swift */,
 				E950CF55285A27BA00C4BD70 /* ViewController2.swift */,
+				E939C0FC285A668B0021AB02 /* NSAttributedStringExtenstion.swift */,
+				E939C0FA285A624B0021AB02 /* ViewController3.swift */,
 				E950CF54285A279200C4BD70 /* New Group */,
 				E9CD736A2859045A0051C9C5 /* Main.storyboard */,
-				E9CD736D2859046D0051C9C5 /* Assets.xcassets */,
 				E9CD736F2859046D0051C9C5 /* LaunchScreen.storyboard */,
+				E939C0FE285A6FE00021AB02 /* Media.xcassets */,
 				E9CD73722859046D0051C9C5 /* Info.plist */,
 			);
 			path = InclusSTEAM;
@@ -152,8 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9CD73712859046D0051C9C5 /* LaunchScreen.storyboard in Resources */,
-				E9CD736E2859046D0051C9C5 /* Assets.xcassets in Resources */,
 				E9CD736C2859045A0051C9C5 /* Main.storyboard in Resources */,
+				E939C0FF285A6FE00021AB02 /* Media.xcassets in Resources */,
 				E9CD737A28590F800051C9C5 /* Retro Gaming copy.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,8 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9FF5EF6285A5F90004EF8EB /* ViewControllerThree.swift in Sources */,
+				E939C0FB285A624B0021AB02 /* ViewController3.swift in Sources */,
 				E9CD73692859045A0051C9C5 /* ViewController.swift in Sources */,
+				E939C0FD285A668C0021AB02 /* NSAttributedStringExtenstion.swift in Sources */,
 				E950CF56285A27BA00C4BD70 /* ViewController2.swift in Sources */,
 				E9CD73652859045A0051C9C5 /* AppDelegate.swift in Sources */,
 				E9CD73672859045A0051C9C5 /* SceneDelegate.swift in Sources */,
