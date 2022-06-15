@@ -55,7 +55,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLu-pK-emx">
                                 <rect key="frame" x="15" y="417" width="384" height="288"/>
                                 <color key="backgroundColor" systemColor="separatorColor"/>
-                                <string key="text">The goal of IncluSTEM is the gather young non-binary and female identifying people around the world into the STEM/STEAM community. Access to STEM equipment and STEM in general, is not fesable for a lot of people. With IncluSTEM, we are providing resources to help slove this on-going issue.</string>
+                                <string key="text">The goal of IncluSTEM is to gather young non-binary and female identifying people around the world into the STEM/STEAM community. Access to STEM equipment and STEM in general, is not fesable for a lot of people. With IncluSTEM, we are providing resources to help slove this on-going issue.</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" systemColor="systemGray2Color"/>
