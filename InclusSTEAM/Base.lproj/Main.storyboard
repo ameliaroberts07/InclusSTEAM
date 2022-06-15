@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Screen Shot 2022-06-14 at 2.25.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="gnT-vk-xoq">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="image-1" translatesAutoresizingMaskIntoConstraints="NO" id="gnT-vk-xoq">
                                 <rect key="frame" x="39" y="176" width="337" height="197"/>
                                 <color key="backgroundColor" red="0.21478763219999999" green="0.3107957542" blue="0.24607291819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -62,7 +62,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLu-pK-emx">
-                                <rect key="frame" x="15" y="417" width="384" height="288"/>
+                                <rect key="frame" x="15" y="395" width="384" height="288"/>
                                 <color key="backgroundColor" systemColor="separatorColor"/>
                                 <string key="text">The goal of IncluSTEM is to gather young non-binary and female identifying people around the world into the STEM/STEAM community. Access to STEM equipment and STEM in general, is not fesable for a lot of people. With IncluSTEM, we are providing resources to help slove this on-going issue.</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
@@ -101,9 +101,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FIGURES IN STEM " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29i-9L-7LC">
-                                <rect key="frame" x="32" y="20" width="351" height="41"/>
+                                <rect key="frame" x="32" y="44" width="351" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="RetroGaming" family="Retro Gaming" pointSize="32"/>
+                                <fontDescription key="fontDescription" name="RetroGaming" family="Retro Gaming" pointSize="34"/>
                                 <color key="textColor" red="0.21478763219999999" green="0.3107957542" blue="0.24607291819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -119,8 +119,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2022-06-14 at 2.25.19 PM" width="426" height="235"/>
         <image name="image" width="632" height="395"/>
+        <image name="image-1" width="6460" height="3403"/>
         <systemColor name="separatorColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
