@@ -148,6 +148,20 @@
                                 <rect key="frame" x="228" y="462" width="172" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="she/her" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWO-7g-rtv">
+                                <rect key="frame" x="77" y="313" width="57" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="she/her" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLb-7Q-AWq">
+                                <rect key="frame" x="286" y="661" width="57" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q7J-0J-RSt"/>
                         <color key="backgroundColor" red="0.53011780980000001" green="0.65939104559999995" blue="0.6321011782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -232,7 +246,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiF-2K-Mtd">
                                 <rect key="frame" x="179" y="62" width="212" height="412"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Kimberly Bryant is the founder and CEO of Black Girls Code. She earned a scholarship to Vanderbilt University where she received a Bachelor of Engineering degree. Her inspiration for Black Girls Code was sparked by her daughter’s interest in computer science where Bryant realized the lack of Black women in STEM due to the lack of access and exposure to STEM topics.  She hopes Black Girls Code can give Black girls the opportunity to learn essential skills and close the gap in tech for Black girls and women. Its goal is to teach 1 million Black girls to code by 2040.</mutableString>
+                                <string key="text">Kimberly Bryant is the founder and CEO of Black Girls Code. She earned a scholarship to Vanderbilt University where she received a Bachelor of Engineering degree. Her inspiration for Black Girls Code was sparked by her daughter’s interest in computer science where Bryant realized the lack of Black women in STEM due to the lack of access and exposure to STEM topics.  She hopes Black Girls Code can give Black girls the opportunity to learn essential skills and close the gap in tech for Black girls and women. Its goal is to teach 1 million Black girls to code by 2040.</string>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -241,6 +255,20 @@
                                 <rect key="frame" x="219" y="505" width="172" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="they/them" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiJ-YS-QEw">
+                                <rect key="frame" x="275" y="700" width="77" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="she/her" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IoI-YW-vIr">
+                                <rect key="frame" x="81" y="266" width="57" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BOf-0b-y5H"/>
                         <color key="backgroundColor" red="0.53011780980000001" green="0.65939104559999995" blue="0.6321011782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
