@@ -16,7 +16,6 @@
 		E9CD73692859045A0051C9C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CD73682859045A0051C9C5 /* ViewController.swift */; };
 		E9CD736C2859045A0051C9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CD736A2859045A0051C9C5 /* Main.storyboard */; };
 		E9CD73712859046D0051C9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CD736F2859046D0051C9C5 /* LaunchScreen.storyboard */; };
-		E9CD737A28590F800051C9C5 /* Retro Gaming copy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9CD737928590F800051C9C5 /* Retro Gaming copy.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		E9CD736B2859045A0051C9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9CD73702859046D0051C9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9CD73722859046D0051C9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9CD737928590F800051C9C5 /* Retro Gaming copy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Retro Gaming copy.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,13 +43,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E950CF54285A279200C4BD70 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		E9CD73582859045A0051C9C5 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +69,6 @@
 				E950CF55285A27BA00C4BD70 /* ViewController2.swift */,
 				E939C0FC285A668B0021AB02 /* NSAttributedStringExtenstion.swift */,
 				E939C0FA285A624B0021AB02 /* ViewController3.swift */,
-				E950CF54285A279200C4BD70 /* New Group */,
 				E9CD736A2859045A0051C9C5 /* Main.storyboard */,
 				E9CD736F2859046D0051C9C5 /* LaunchScreen.storyboard */,
 				E939C0FE285A6FE00021AB02 /* Media.xcassets */,
@@ -90,7 +80,6 @@
 		E9CD737828590E920051C9C5 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				E9CD737928590F800051C9C5 /* Retro Gaming copy.ttf */,
 			);
 			name = Fonts;
 			path = ../../../Downloads;
@@ -157,7 +146,6 @@
 				E9CD73712859046D0051C9C5 /* LaunchScreen.storyboard in Resources */,
 				E9CD736C2859045A0051C9C5 /* Main.storyboard in Resources */,
 				E939C0FF285A6FE00021AB02 /* Media.xcassets in Resources */,
-				E9CD737A28590F800051C9C5 /* Retro Gaming copy.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
