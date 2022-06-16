@@ -7,6 +7,11 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Retro Gaming.ttf">
+            <string>RetroGaming</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -19,6 +24,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3kB-cD-2xw">
                                 <rect key="frame" x="130" y="607" width="154" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted">
                                     <attributedString key="attributedTitle">
@@ -26,6 +32,7 @@
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <font key="NSFont" size="18" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -42,7 +49,9 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Figures in STEM">
                                             <attributes>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <font key="NSFont" size="18" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -65,6 +74,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="G3f-Om-5Fd">
                                 <rect key="frame" x="10" y="176" width="394" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59400445219999998" green="0.71607261899999997" blue="0.78432458640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image (1)" translatesAutoresizingMaskIntoConstraints="NO" id="GIj-GC-o6h">
                                 <rect key="frame" x="10" y="-72" width="394" height="349"/>
@@ -72,7 +82,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.61249785361946141" green="0.76250552147934114" blue="0.72988120380552435" alpha="0.86556508589764025" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.55362117290000001" green="0.65534478429999998" blue="0.63137108090000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                 </viewController>
@@ -88,25 +98,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="FIGURES IN STEM " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29i-9L-7LC">
-                                <rect key="frame" x="63" y="44" width="351" height="41"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FIGURES IN STEM P.1." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29i-9L-7LC">
+                                <rect key="frame" x="20" y="44" width="374" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RetroGaming" family="Retro Gaming" pointSize="28"/>
                                 <color key="textColor" red="0.21478763219999999" green="0.3107957542" blue="0.24607291819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5t4-DY-tnz">
+                                <rect key="frame" x="19" y="755" width="375" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="TAP HERE TO READ ABOUT MORE FIGURES">
+                                            <attributes>
+                                                <font key="NSFont" size="17" name="Futura-Medium"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="H7K-iA-cCk" kind="show" id="Ibp-K4-r4C"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="165530417738559222-1" translatesAutoresizingMaskIntoConstraints="NO" id="kqn-ek-gb6">
+                                <rect key="frame" x="18" y="133" width="161" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbJ-ZJ-9vm">
+                                <rect key="frame" x="180" y="48" width="219" height="412"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Karlie Kloss is a fashion model and entrepreneur. She is the founder of Kode With Klossy, a two-week coding program that provides girls and non-binary individuals ages 13-18 the opportunity to learn key computer science skills and concepts. Her goal is to encourage girls to learn to code and become tech leaders. After experiencing the power of code herself, she knew she wanted to help girls know they could pursue it too!</string>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymY-2t-bDQ">
+                                <rect key="frame" x="18" y="369" width="202" height="412"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Susan Wojcicki is the CEO of YouTube. She received a Master's degree and a Master of Business Administration in economics. Wojcicki emphasizes the need for more women in technology, especially at large companies such as Google. Over the years, Wojcicki has pushed for long-term paid parental leave, which she hopes will encourage more women to join a male-dominated field. Her goal is to continue to help YouTube grow, and make it a welcoming platform for people to be themselves. 
+</string>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="165530417738559222-2" translatesAutoresizingMaskIntoConstraints="NO" id="hQ2-9r-e9R">
+                                <rect key="frame" x="228" y="462" width="172" height="210"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Q7J-0J-RSt"/>
                         <color key="backgroundColor" red="0.53011780980000001" green="0.65939104559999995" blue="0.6321011782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="29i-9L-7LC" firstAttribute="leading" secondItem="Q7J-0J-RSt" secondAttribute="leading" constant="63" id="U3t-5J-LrN"/>
-                            <constraint firstItem="29i-9L-7LC" firstAttribute="trailing" secondItem="Q7J-0J-RSt" secondAttribute="trailing" id="j8W-Pq-Ub1"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gga-Ou-nkd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Oe-nG-HTt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1706" y="-145"/>
+            <point key="canvasLocation" x="1705.7971014492755" y="-145.3125"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="LaT-SM-cab">
@@ -116,25 +166,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MZS-le-3x0">
-                                <rect key="frame" x="90" y="272" width="234" height="310"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MZS-le-3x0">
+                                <rect key="frame" x="79" y="277" width="257" height="288"/>
                                 <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
                                 <string key="text">Tap here to view accessible stem resources, coding classes afforadbale items, and more to launch into stem.                                          </string>
                                 <color key="textColor" red="0.21478763219999999" green="0.3107957542" blue="0.24607291819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="32"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="28"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INv-gb-snK">
-                                <rect key="frame" x="80" y="144" width="244" height="45"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INv-gb-snK">
+                                <rect key="frame" x="85" y="117" width="244" height="45"/>
+                                <fontDescription key="fontDescription" name="RetroGaming" family="Retro Gaming" pointSize="34"/>
                                 <color key="textColor" red="0.21478763219999999" green="0.3107957542" blue="0.24607291819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xbV-jL-e4k"/>
-                        <color key="backgroundColor" red="0.53011780980000001" green="0.65939104559999995" blue="0.6321011782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.55362117290000001" green="0.65534478429999998" blue="0.63137108090000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="MZS-le-3x0" firstAttribute="leading" secondItem="xbV-jL-e4k" secondAttribute="leading" constant="90" id="E5O-na-QWj"/>
                             <constraint firstItem="xbV-jL-e4k" firstAttribute="trailing" secondItem="INv-gb-snK" secondAttribute="trailing" constant="90" id="KUz-7S-7A5"/>
@@ -152,8 +202,61 @@
             </objects>
             <point key="canvasLocation" x="917.39130434782612" y="-145.3125"/>
         </scene>
+        <!--View Controller2-->
+        <scene sceneID="00C-3G-JvO">
+            <objects>
+                <viewController id="H7K-iA-cCk" customClass="ViewController2" customModule="InclusSTEAM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yqi-Ng-j9N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FIGURES IN STEM P.2." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQv-HO-o9w">
+                                <rect key="frame" x="23" y="44" width="368" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="RetroGaming" family="Retro Gaming" pointSize="28"/>
+                                <color key="textColor" red="0.21478763219999999" green="0.3107957542" blue="0.24607291819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="165530417738559222-3" translatesAutoresizingMaskIntoConstraints="NO" id="MR3-SU-ABO">
+                                <rect key="frame" x="19" y="101" width="152" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyu-jn-sxb">
+                                <rect key="frame" x="23" y="396" width="191" height="412"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hazel Ang is a non-binary pharmacologist and biomedical scientist. They have a Ph.D. in pharmacology and cancer biology that they use in the field of aging. Ang also has a passion to help those part of the LGBTQIA+ community get involved with STEM. Ang is trying to rid of the stigma that STEM is only for male-identifying people by showing us firsthand that anyone can be a part of the science community. </string>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiF-2K-Mtd">
+                                <rect key="frame" x="179" y="62" width="212" height="412"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Kimberly Bryant is the founder and CEO of Black Girls Code. She earned a scholarship to Vanderbilt University where she received a Bachelor of Engineering degree. Her inspiration for Black Girls Code was sparked by her daughter’s interest in computer science where Bryant realized the lack of Black women in STEM due to the lack of access and exposure to STEM topics.  She hopes Black Girls Code can give Black girls the opportunity to learn essential skills and close the gap in tech for Black girls and women. Its goal is to teach 1 million Black girls to code by 2040.</mutableString>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="165530417738559222-4" translatesAutoresizingMaskIntoConstraints="NO" id="qwV-OO-YRk">
+                                <rect key="frame" x="219" y="505" width="172" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BOf-0b-y5H"/>
+                        <color key="backgroundColor" red="0.53011780980000001" green="0.65939104559999995" blue="0.6321011782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eng-aH-A1q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CUW-Lo-MZF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2518.840579710145" y="-145.3125"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="165530417738559222-1" width="522" height="522"/>
+        <image name="165530417738559222-2" width="385" height="385"/>
+        <image name="165530417738559222-3" width="400" height="400"/>
+        <image name="165530417738559222-4" width="518" height="518"/>
         <image name="image" width="6460" height="3403"/>
         <image name="image (1)" width="632" height="395"/>
         <systemColor name="quaternaryLabelColor">

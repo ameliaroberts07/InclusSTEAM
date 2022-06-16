@@ -17,7 +17,7 @@ class ViewController3: UIViewController {
     }
     
     func updateTextView() {
-        let path = "https://docs.google.com/document"
+        let path = "https://tinyurl.com/2p8jw4ts"
         let text = textView.text ?? ""
         let attributedString = NSAttributedString.makeHyperlink(for: path, in: text, as: "here")
         let font = textView.font

@@ -16,6 +16,7 @@
 		E9CD736C2859045A0051C9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CD736A2859045A0051C9C5 /* Main.storyboard */; };
 		E9CD73712859046D0051C9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CD736F2859046D0051C9C5 /* LaunchScreen.storyboard */; };
 		F518E45F285B769400866D0B /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F518E45E285B769400866D0B /* assets.xcassets */; };
+		F5F55D51285B7E0A0051BB5F /* Retro Gaming.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5F55D50285B7E0A0051BB5F /* Retro Gaming.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		E9CD73702859046D0051C9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9CD73722859046D0051C9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F518E45E285B769400866D0B /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		F5F55D50285B7E0A0051BB5F /* Retro Gaming.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Retro Gaming.ttf"; sourceTree = "<group>"; };
+		F5F55D52285B7E120051BB5F /* Retro Gaming.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Retro Gaming.ttf"; path = "InclusSTEAM/Retro Gaming.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,7 @@
 				E939C0FA285A624B0021AB02 /* ViewController3.swift */,
 				E9CD736A2859045A0051C9C5 /* Main.storyboard */,
 				E9CD736F2859046D0051C9C5 /* LaunchScreen.storyboard */,
+				F5F55D50285B7E0A0051BB5F /* Retro Gaming.ttf */,
 				F518E45E285B769400866D0B /* assets.xcassets */,
 				E9CD73722859046D0051C9C5 /* Info.plist */,
 			);
@@ -80,6 +84,7 @@
 		E9CD737828590E920051C9C5 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				F5F55D52285B7E120051BB5F /* Retro Gaming.ttf */,
 			);
 			name = Fonts;
 			path = ../../../Downloads;
@@ -146,6 +151,7 @@
 				E9CD73712859046D0051C9C5 /* LaunchScreen.storyboard in Resources */,
 				E9CD736C2859045A0051C9C5 /* Main.storyboard in Resources */,
 				F518E45F285B769400866D0B /* assets.xcassets in Resources */,
+				F5F55D51285B7E0A0051BB5F /* Retro Gaming.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
